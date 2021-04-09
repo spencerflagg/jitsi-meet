@@ -204,6 +204,7 @@ class Filmstrip extends Component <Props> {
                             }
                         </div>
                     </div>
+                    if(false){
                     <div
                         className = { remoteVideosWrapperClassName }
                         id = 'filmstripRemoteVideos'>
@@ -233,6 +234,7 @@ class Filmstrip extends Component <Props> {
                             </div>
                         </div>
                     </div>
+                    }
                 </div>
             </div>
         );
