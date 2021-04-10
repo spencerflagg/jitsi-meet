@@ -204,7 +204,12 @@ class Filmstrip extends Component <Props> {
                             }
                         </div>
                     </div>
-                    if(false){
+                    { (remoteParticipants.length > 1) ?
+                    (<div id='remoteParticipantsCount'>
+                        {remoteParticipants.length - 1}
+                    </div>) : ''}
+                    { // TODO: this is to temporarily hide remote vids. fix later. 
+                        false ? (
                     <div
                         className = { remoteVideosWrapperClassName }
                         id = 'filmstripRemoteVideos'>
@@ -234,7 +239,7 @@ class Filmstrip extends Component <Props> {
                             </div>
                         </div>
                     </div>
-                    }
+                    ) : '' }
                 </div>
             </div>
         );

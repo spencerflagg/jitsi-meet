@@ -9,7 +9,7 @@
  */
 
 var interfaceConfig = {
-    APP_NAME: 'Jitsi Meet',
+    APP_NAME: ': U N D I V I D E :',
     AUDIO_LEVEL_PRIMARY_COLOR: 'rgba(255,255,255,0.4)',
     AUDIO_LEVEL_SECONDARY_COLOR: 'rgba(255,255,255,0.2)',
 
@@ -49,7 +49,7 @@ var interfaceConfig = {
      *
      * @type {boolean}
      */
-    CONNECTION_INDICATOR_DISABLED: false,
+    CONNECTION_INDICATOR_DISABLED: true, //scf
 
     DEFAULT_BACKGROUND: '#474747',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
@@ -202,7 +202,7 @@ var interfaceConfig = {
      */
     SUPPORT_URL: 'https://community.jitsi.org/',
 
-    TOOLBAR_ALWAYS_VISIBLE: false,
+    TOOLBAR_ALWAYS_VISIBLE: true, //scf
 
     /**
      * DEPRECATED!
